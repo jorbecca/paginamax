@@ -1,3 +1,79 @@
-<html>
-<h5>hola</h5>
-</html>
+<HTML>
+	<HEAD>
+
+		<TITLE> Jos&eacute; Maximliano Toriz S&aacute;mano </TITLE>
+
+	</HEAD>
+
+	<BODY>
+		<H1> Comandos B&aacute;sicos</H1>
+		<BR>
+		<UL>
+			<LI> &lt HTML &gt ...  &lt /HTML &gt   : Indica el comienzo y fin de un archivo HTML
+			<LI> &lt HEAD &gt ...  &lt /HEAD &gt   : Indica el comienzo y fin de un encabezado (aqu&iacute; se coloca generalmente el t&iacute;tulo).
+			<LI> &lt TITLE &gt ...  &lt /TITLE &gt   : Indica el t&iacute;tulo, en este caso el t&iacute;tulo es mi nombre.
+			<LI> &lt BODY &gt ...  &lt /BODY &gt   : Indica el comienzo y fin del cuerpo de la p&aacute;gina, el cuerpo de la p&aacute;gina se refiere al contenido de ella, en este caso son los comandos b&aacute;sicos.
+			<LI> &lt P &gt ...  &lt /P &gt : Indica comienzo y fin de un p&aacute;rrafo.
+			<LI> &lt BR &gt : Permite saltarse una l&iacute;nea (se llama <EM>quiebre de l&iacute;nea</EM>).
+			<LI> &lt H<EM>n</EM> &gt ... &lt H<EM>n</EM> &gt : Para <EM>n</EM> entre 
+				 1 y 6, hacen que el texto encerrado aparezca como encabezado(un subt&iacute;tulo).
+				 <UL>
+					 <LI> <H1>&lt H1 &gt...&lt /H1 &gtAquí se muestra un texto con H1 </H1>.
+					 <LI> <H2>&lt H2 &gt...&lt /H2 &gtAquí se muestra un texto con H2 </H2>.
+					 <LI> <H3>&lt H3 &gt...&lt /H3 &gtAquí se muestra un texto con H3 </H3>.
+					 <LI> <H4>&lt H4 &gt...&lt /H4 &gtAquí se muestra un texto con H4 </H4>.
+					 <LI> <H5>&lt H5 &gt...&lt /H5 &gtAquí se muestra un texto con H5 </H5>.
+					 <LI> <H6>&lt H6 &gt...&lt /H6 &gtAquí se muestra un texto con H6 </H6>.
+				 </UL>
+			<LI> Tipos de letras:
+			   <UL>
+				 <LI> &lt B &gt ...  &lt /B &gt : <B>Negrita</B>.
+				 <LI> &lt L &gt ...  &lt /L &gt : <L>Cursiva</L>.
+				 <LI> &lt BLINK &gt ...  &lt /BLINK &gt : <BLINK>Parpadeante</BLINK>.
+				 <LI> &lt STRONG &gt ...  &lt /STRONG &gt : <STRONG>Enfatizada</STRONG>.
+			  </UL>
+			<LI> &lt UL &gt ...  &lt /UL &gt : Indica comienzo y fin de una lista no ordenada (puntos). Dentro de ellos, cada item empieza por &lt LI &gt y termina al terminar la l&iacute;nea.
+			<LI> &lt OL &gt ...  &lt /OL &gt : Indica comienzo y fin de una lista ordenada (n&uacute;meros). Dentro de ellos, cada item empieza por &lt LI &gt y termina al terminar la l&iacute;nea. <BR>
+				 Ejemplo: <BR>
+				 <PRE>
+				  &lt OL &gt
+					&lt LI &gt Primer item
+					&lt LI &gt Segundo item
+					&lt UL &gt 
+					  &lt LI &gt Primer subitem
+					  &lt LI &gt Segundo subitem
+					&lt /UL &gt
+					&lt LI &gt Tercer item
+				  &lt /OL &gt
+				</PRE>
+					<P>
+					Y esto se ve<BR>
+					</P>
+					<OL>
+						 <LI> Primer item
+							<LI> Segundo item
+						 <UL> 
+							<LI> Primer subitem
+						 <LI> Segundo subitem
+						</UL>
+					 <LI> Tercer item
+					</OL>
+		</UL>
+		<P>La sintaxis para la inclusi&oacute;n de gr&aacute;ficos es la siguiente:<BR>
+		<BR>
+		<table>
+		<tr><td><b>&lt img src=archivo.{gif,jpg}<b></td><td><i>Nombre del archivo</i><BR></td></tr>
+		<tr><td align=right><b>width=</b></td><td> <i>Ancho del archivo(en puntos</I></td></tr>
+		<tr><td align=right><b>height=</b> </td><td><i>Altura del archivos (en puntos)</I></td></tr>
+		<tr><td align=right><b>align=</b></td><td> <i>Alineaci&oacute;n de la imagen y textos (ver m&aacute;s abajo)</i><br>
+		<tr><td align=right><b>  border=</b> </td><td> <i>Ancho del borde de la imagen</i><br>
+		<tr><td align=right>&gt</td><td></td></tr>
+		</table>
+		Por ejemplo:<BR>
+		<center>&lt img src="download.jpg" &gt </center><BR>
+		<center><img src="download.jpg"></center><p>
+		<LI>Referencias a otras p&aacute;ginas:<BR>
+		&lt;a href="otra_pagina.html" &gt;Ir a otra pagina &lt;/a&gt; <BR> Se ve como:<BR>
+		<A HREF="https://www.youtube.com/watch?v=h6f1NwpyRIk&list=RDjKh1IcsVAQY&index=8"> Ir a otra pagina </A>
+	</BODY>
+</HTML>
